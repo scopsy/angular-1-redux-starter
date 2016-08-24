@@ -42,6 +42,6 @@ angular
         $urlRouterProvider.otherwise('/home');
 
 
-        $ngReduxProvider.createStoreWith(RootReducer, []);
+        $ngReduxProvider.createStoreWith(RootReducer);
     })
     .component('app', AppComponent);
